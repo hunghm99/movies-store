@@ -1,0 +1,28 @@
+PODS:
+  - GradientCircularProgress (3.13.0)
+  - MBCircularProgressBar (0.3.5)
+
+DEPENDENCIES:
+  - GradientCircularProgress (from `https://github.com/keygx/GradientCircularProgress`)
+  - MBCircularProgressBar
+
+SPEC REPOS:
+  trunk:
+    - MBCircularProgressBar
+
+EXTERNAL SOURCES:
+  GradientCircularProgress:
+    :git: https://github.com/keygx/GradientCircularProgress
+
+CHECKOUT OPTIONS:
+  GradientCircularProgress:
+    :commit: 9e2dc60d335ee6eb3677bfd9f965f0ade3607f4c
+    :git: https://github.com/keygx/GradientCircularProgress
+
+SPEC CHECKSUMS:
+  GradientCircularProgress: f5a04b862adc1fbafbd21c0ff450ed7d74d1926e
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+
+PODFILE CHECKSUM: 8940a75279f1777cc648d68af1fd6c4ef74bf79a
+
+COCOAPODS: 1.11.3

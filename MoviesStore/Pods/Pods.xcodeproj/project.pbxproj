@@ -1,0 +1,1353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BA716616A999B1E52DFB6D575C8C73 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8266D16B38994F5DF43238416FCC7E /* ProgressViewController.swift */; };
+		0EAF3D3A4225750A85D9907D125497E9 /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE957E8DEB88136E765B649752DA565 /* MBCircularProgressBarLayer.m */; };
+		1D2235175D2A975A3C77EEB7D53E7B22 /* WindowBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B584D984F49EBC5A9CAD79135073FC8 /* WindowBuilder.swift */; };
+		1E3CCD8ED7AA1DD230A512B69366BDD9 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53EE4F63FD35C8134B3EEA17CBCC66D /* ColorUtil.swift */; };
+		1EF459A4657DF666DEB46B773A56129C /* GradientArcWithClearColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09E0D6E8407D79CF9DD087C759AC91C /* GradientArcWithClearColorView.swift */; };
+		2018B8EEBB508956A8FD7C74A42FD143 /* MBCircularProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAA9E115619E13E5A05F216D707E346 /* MBCircularProgressBar-dummy.m */; };
+		2A304363A0C51A867D7CCDA8755D26C8 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675AE77AED08815E54DCC9EA51CCA242 /* ArcView.swift */; };
+		2E3D67EF4390C90419AF9F14190532B0 /* GradientCircularProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6657DFF8EB11E34FD8BB541B991011 /* GradientCircularProgress-dummy.m */; };
+		313734138B38FE724E916F77536988B2 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB35FC001771D0D5770B7DEF7382DC /* ProgressView.swift */; };
+		3AF59972CF9DE7354BF21402CC674065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3B152CC8B3E2DA652BD8D1455FB56643 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3B46913E94D7EB076632F3D77CD208DC /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC714C9BBF605952CF5A1A069A1695 /* CircularProgressView.swift */; };
+		3EA3F4E87D1AED0CDEDE8F5B70E254A6 /* GradientArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2527A5F7FE8A84D6966A760BF7C39 /* GradientArcView.swift */; };
+		4D0432776FC2192436F5B791311D906C /* Pods-MoviesStoreTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80151C69CADA4C7DD9F9F979AB389AF8 /* Pods-MoviesStoreTests-dummy.m */; };
+		511E2541F8F4F7B54139E7FF76B0F01A /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = F72944201BE65CC89B5AB4482C9EC89A /* example.png */; };
+		5D3C6F08D62AD9AAF171BBFED8CCB786 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B181E2A4445FAA5DFDCA4C34E397BC2 /* Property.swift */; };
+		6F9CD0EB474CB886F990C23E48F777A2 /* GradientCircularProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB18FDD8A687FFF2BE2BC4F5A9A121A /* GradientCircularProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71F7A055D4E0E948DCFFCBAA639B0BC0 /* GradientCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2AF4519BD1D3C192EF3FD0069B6BDD /* GradientCircularProgress.swift */; };
+		741583F8FE2F5ACB0E2A8723BB57FEFC /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462EDF373BC9533F7D5C88BF13F949ED /* Style.swift */; };
+		815579CAFAD4C5D4E60B886DF4B18166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		89A17E274E9DBAEB446BDF83F75ADF80 /* OrangeClearStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDDE249440925A88E784910A4D816F4 /* OrangeClearStyle.swift */; };
+		89C247F60E83565F7F5FA75DCC64E8A2 /* GradientCircularProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 494A4BB53D052BC5BA31408F79AE47B9 /* GradientCircularProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA8998A7431685397947D231B36A558 /* Pods-MoviesStore-MoviesStoreUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCC4035967800469B1C5B6639B891E8 /* Pods-MoviesStore-MoviesStoreUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		964C9F89BD4B19A7224406B525FD4C29 /* Pods-MoviesStore-MoviesStoreUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 124284F92531610A05EDAF13B6091853 /* Pods-MoviesStore-MoviesStoreUITests-dummy.m */; };
+		9A2923EE6EC1969B993224C9B29D2273 /* MBCircularProgressBarLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B008E9B9A510DBE815F39E9B66E2C4 /* MBCircularProgressBarLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB9F43FD327D7279D482F8F3716CD2C0 /* Pods-MoviesStore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5907AAE0BCAF35F93A9945F12DB51E42 /* Pods-MoviesStore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4BB9632B410AE70CCEC18CA02F4C48E /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3270CA68CDB974373E91EAC513D7905B /* MBCircularProgressBarView.m */; };
+		BBC9B7F139164A6A32851DF5EB164C69 /* GreenLightStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BDBB1594F2B78161C4675F512CF3BA /* GreenLightStyle.swift */; };
+		BDDEBA8CD3EAE7906E1CC3F7B8863F72 /* BlueIndicatorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DBEB880AE4F4C290430A11AC5C72AF /* BlueIndicatorStyle.swift */; };
+		C534B317A2ABD3C836F1029F270F4C6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CCB2748298A52B149A1F06F4200C4EB8 /* ProgressAtRatioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AC44828C7BCD517C5899215C5F1C97 /* ProgressAtRatioView.swift */; };
+		CCCC3058CA8FCD02B9D38E7F50F56D83 /* MBCircularProgressBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8F750F1A07C0ADCAD99BBDA3E2A0AE /* MBCircularProgressBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE23597310AFBA0C53AFDB0A15285F6B /* Pods-MoviesStoreTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B34FE463A44A36A11AEF94A528DA585D /* Pods-MoviesStoreTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D225FA9B7ED55298826CCEBF6FCF39D3 /* BlueDarkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18265559E6E6D4ABB5D530D3BEC8BF6 /* BlueDarkStyle.swift */; };
+		D88515EF112FE9EA0F7A997BACDEA9D4 /* Pods-MoviesStore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1709819E8F1F397A7A46E540468DA1 /* Pods-MoviesStore-dummy.m */; };
+		ECC0767E1CA7CD917A3F8081C41C6EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F0A2A519EDFE8BF62530A46DEC8E8402 /* MBCircularProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA4D2BBE14D69193B4F12B13A915CD4 /* MBCircularProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F19C698DA0C0DE5096EACCDE63A174D0 /* MBCircularProgressBar-MBCircularProgressBar in Resources */ = {isa = PBXBuildFile; fileRef = 7CB12AE789452060456EBCEC68360820 /* MBCircularProgressBar-MBCircularProgressBar */; };
+		F79146C9737A392D44FCC7C12FDD0AF1 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E984BA04E4C4E291109460122D7854B /* Background.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A2BAFC4D3B328F5746CD43CCED85C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E22002AAC42C1574F92E75D3B37DD24;
+			remoteInfo = GradientCircularProgress;
+		};
+		4BCEDA4F4D32218E0C82D3C9E0A74CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BA5E348E64AFAB335EC680A67122E64;
+			remoteInfo = "MBCircularProgressBar-MBCircularProgressBar";
+		};
+		89A72FB077707F08534C00DC7BB4F2BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FA1E1D7ABC29B96888E2D9085D474F;
+			remoteInfo = MBCircularProgressBar;
+		};
+		A89A3823E95F9799546475491075FA60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7B8404005C65744456CE007F41B81C;
+			remoteInfo = "Pods-MoviesStore";
+		};
+		A91A437C9C1FC2D4861CAD42AA333596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FA1E1D7ABC29B96888E2D9085D474F;
+			remoteInfo = MBCircularProgressBar;
+		};
+		B4712D243C43EE620B67E0ACBE703C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E22002AAC42C1574F92E75D3B37DD24;
+			remoteInfo = GradientCircularProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04169222CD13B179F1B25826E74B5E2E /* Pods-MoviesStore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoviesStore-Info.plist"; sourceTree = "<group>"; };
+		0A1709819E8F1F397A7A46E540468DA1 /* Pods-MoviesStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoviesStore-dummy.m"; sourceTree = "<group>"; };
+		124284F92531610A05EDAF13B6091853 /* Pods-MoviesStore-MoviesStoreUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoviesStore-MoviesStoreUITests-dummy.m"; sourceTree = "<group>"; };
+		1955CF160ADD266444582DA85BB3B8A5 /* Pods-MoviesStoreTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoviesStoreTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B181E2A4445FAA5DFDCA4C34E397BC2 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = source/Progress/Property.swift; sourceTree = "<group>"; };
+		1D2AF4519BD1D3C192EF3FD0069B6BDD /* GradientCircularProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientCircularProgress.swift; path = source/GradientCircularProgress.swift; sourceTree = "<group>"; };
+		293B0AD984CE3DD741D4E272D85DCE35 /* Pods-MoviesStore-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoviesStore-frameworks.sh"; sourceTree = "<group>"; };
+		2DA4D2BBE14D69193B4F12B13A915CD4 /* MBCircularProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		3270CA68CDB974373E91EAC513D7905B /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarView.m; path = Pod/Classes/MBCircularProgressBarView.m; sourceTree = "<group>"; };
+		44B008E9B9A510DBE815F39E9B66E2C4 /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarLayer.h; path = Pod/Classes/MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
+		462EDF373BC9533F7D5C88BF13F949ED /* Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Style.swift; path = source/Styles/Style.swift; sourceTree = "<group>"; };
+		475764EBD12256DA063CF6EE6DDD820D /* GradientCircularProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GradientCircularProgress.modulemap; sourceTree = "<group>"; };
+		488364BBDC47D5C5A68F2407911349CB /* Pods-MoviesStore-MoviesStoreUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoviesStore-MoviesStoreUITests.modulemap"; sourceTree = "<group>"; };
+		494A4BB53D052BC5BA31408F79AE47B9 /* GradientCircularProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientCircularProgress-umbrella.h"; sourceTree = "<group>"; };
+		4CDD96467E317DB9AACCEAB08A022F7A /* Pods-MoviesStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoviesStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		513AC949DF8467E418E85BC5461F27DA /* MBCircularProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		5286AF3E4774CC9645E411C149E3445F /* MBCircularProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBCircularProgressBar.modulemap; sourceTree = "<group>"; };
+		540015340BB90B3A631E7F0DAEFDECD0 /* MBCircularProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.release.xcconfig; sourceTree = "<group>"; };
+		554719D1B6052A3158A667B410CE972F /* GradientCircularProgress */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GradientCircularProgress; path = GradientCircularProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		558DE2853C81909E12415A166F17C76E /* Pods-MoviesStore-MoviesStoreUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoviesStore-MoviesStoreUITests-frameworks.sh"; sourceTree = "<group>"; };
+		57AC44828C7BCD517C5899215C5F1C97 /* ProgressAtRatioView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressAtRatioView.swift; path = source/Progress/Core/ProgressAtRatioView.swift; sourceTree = "<group>"; };
+		5907AAE0BCAF35F93A9945F12DB51E42 /* Pods-MoviesStore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoviesStore-umbrella.h"; sourceTree = "<group>"; };
+		5C66F5D858D6D17B54E4E5728AC07FAB /* Pods-MoviesStoreTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoviesStoreTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6063F7F02E84F492F1FB81918032D03E /* Pods-MoviesStoreTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoviesStoreTests.modulemap"; sourceTree = "<group>"; };
+		640B2CA36D53D84D0129B12A7FAC2E0B /* MBCircularProgressBar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBCircularProgressBar; path = MBCircularProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675AE77AED08815E54DCC9EA51CCA242 /* ArcView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArcView.swift; path = source/Progress/Elements/ArcView.swift; sourceTree = "<group>"; };
+		69034F3ADEE77A9B4DA0D62FBE30052B /* MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B10C6CDCC17CE99C94E64CD807323B8 /* Pods-MoviesStore-MoviesStoreUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoviesStore-MoviesStoreUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B584D984F49EBC5A9CAD79135073FC8 /* WindowBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowBuilder.swift; path = source/Progress/Elements/WindowBuilder.swift; sourceTree = "<group>"; };
+		7CB12AE789452060456EBCEC68360820 /* MBCircularProgressBar-MBCircularProgressBar */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MBCircularProgressBar-MBCircularProgressBar"; path = MBCircularProgressBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F336861FDD10AFF39456AFBEBFF20FF /* Pods-MoviesStoreTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MoviesStoreTests"; path = Pods_MoviesStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8266D16B38994F5DF43238416FCC7E /* ProgressViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressViewController.swift; path = source/Progress/ProgressViewController.swift; sourceTree = "<group>"; };
+		80151C69CADA4C7DD9F9F979AB389AF8 /* Pods-MoviesStoreTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoviesStoreTests-dummy.m"; sourceTree = "<group>"; };
+		82CB544B829F25892C49923CF1F6E74E /* Pods-MoviesStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoviesStore.debug.xcconfig"; sourceTree = "<group>"; };
+		851F04E6687D031F736668D5C50225D8 /* Pods-MoviesStore-MoviesStoreUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoviesStore-MoviesStoreUITests-Info.plist"; sourceTree = "<group>"; };
+		8965C7EDF7503A74522EA9A5B90F6F56 /* Pods-MoviesStoreTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoviesStoreTests-Info.plist"; sourceTree = "<group>"; };
+		8C881A665FA80F54BD18FD0671771973 /* GradientCircularProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientCircularProgress-prefix.pch"; sourceTree = "<group>"; };
+		8DFBD1AC07B0290AFE46D5BE98F4859A /* Pods-MoviesStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoviesStore.release.xcconfig"; sourceTree = "<group>"; };
+		8E984BA04E4C4E291109460122D7854B /* Background.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Background.swift; path = source/Progress/Elements/Background.swift; sourceTree = "<group>"; };
+		962B35AA4389B1AC8F67E54352C6BD89 /* ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
+		96B04E98121962FCE266BC3E6DCDD6B7 /* Pods-MoviesStore-MoviesStoreUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MoviesStore-MoviesStoreUITests"; path = Pods_MoviesStore_MoviesStoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DBEB880AE4F4C290430A11AC5C72AF /* BlueIndicatorStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueIndicatorStyle.swift; path = source/Styles/BlueIndicatorStyle.swift; sourceTree = "<group>"; };
+		9D6657DFF8EB11E34FD8BB541B991011 /* GradientCircularProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GradientCircularProgress-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FCC4035967800469B1C5B6639B891E8 /* Pods-MoviesStore-MoviesStoreUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoviesStore-MoviesStoreUITests-umbrella.h"; sourceTree = "<group>"; };
+		A09E0D6E8407D79CF9DD087C759AC91C /* GradientArcWithClearColorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientArcWithClearColorView.swift; path = source/Progress/Elements/GradientArcWithClearColorView.swift; sourceTree = "<group>"; };
+		A325E10A31BC73BABFD5CC51E28458E6 /* Pods-MoviesStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoviesStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A604F0133CDC14EFD3D1177AE877C537 /* Pods-MoviesStore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MoviesStore"; path = Pods_MoviesStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB18FDD8A687FFF2BE2BC4F5A9A121A /* GradientCircularProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GradientCircularProgress.h; path = source/GradientCircularProgress.h; sourceTree = "<group>"; };
+		AE8F750F1A07C0ADCAD99BBDA3E2A0AE /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarView.h; path = Pod/Classes/MBCircularProgressBarView.h; sourceTree = "<group>"; };
+		AFCB35FC001771D0D5770B7DEF7382DC /* ProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = source/Progress/ProgressView.swift; sourceTree = "<group>"; };
+		B34FE463A44A36A11AEF94A528DA585D /* Pods-MoviesStoreTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoviesStoreTests-umbrella.h"; sourceTree = "<group>"; };
+		B359449ACDB524ACB2361CB781A69A1D /* Pods-MoviesStore-MoviesStoreUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoviesStore-MoviesStoreUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5C7375F8B1A661F744BB809A23AE58A /* Pods-MoviesStore-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoviesStore-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7C8D6F124E417AA507393C21C5C4FC8 /* GradientCircularProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientCircularProgress.release.xcconfig; sourceTree = "<group>"; };
+		BBA7F5AB205D48DF9886698AFCBEDC52 /* GradientCircularProgress-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GradientCircularProgress-Info.plist"; sourceTree = "<group>"; };
+		C18265559E6E6D4ABB5D530D3BEC8BF6 /* BlueDarkStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueDarkStyle.swift; path = source/Styles/BlueDarkStyle.swift; sourceTree = "<group>"; };
+		C3BDBB1594F2B78161C4675F512CF3BA /* GreenLightStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GreenLightStyle.swift; path = source/Styles/GreenLightStyle.swift; sourceTree = "<group>"; };
+		CA1C85DAAEBD625013EA11E89265BEB7 /* MBCircularProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.debug.xcconfig; sourceTree = "<group>"; };
+		CC4E341F864B9FB057DB7C3EDA356F1F /* Pods-MoviesStore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoviesStore.modulemap"; sourceTree = "<group>"; };
+		DBB2527A5F7FE8A84D6966A760BF7C39 /* GradientArcView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientArcView.swift; path = source/Progress/Elements/GradientArcView.swift; sourceTree = "<group>"; };
+		DD4C29B9488A9388F7E690CF4C0156A0 /* Pods-MoviesStore-MoviesStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoviesStore-MoviesStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE739F495036BF2D231510442AD6CFE7 /* Pods-MoviesStore-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoviesStore-acknowledgements.plist"; sourceTree = "<group>"; };
+		E53EE4F63FD35C8134B3EEA17CBCC66D /* ColorUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorUtil.swift; path = source/Utils/ColorUtil.swift; sourceTree = "<group>"; };
+		EDDDE249440925A88E784910A4D816F4 /* OrangeClearStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrangeClearStyle.swift; path = source/Styles/OrangeClearStyle.swift; sourceTree = "<group>"; };
+		EDE957E8DEB88136E765B649752DA565 /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarLayer.m; path = Pod/Classes/MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
+		F393D9CBE27096B9E35C1DF59F614F4F /* GradientCircularProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientCircularProgress.debug.xcconfig; sourceTree = "<group>"; };
+		F72944201BE65CC89B5AB4482C9EC89A /* example.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = example.png; path = Pod/Assets/example.png; sourceTree = "<group>"; };
+		FCC708E8A5642382357BA1708CA076F0 /* Pods-MoviesStore-MoviesStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoviesStore-MoviesStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDCC714C9BBF605952CF5A1A069A1695 /* CircularProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularProgressView.swift; path = source/Progress/Core/CircularProgressView.swift; sourceTree = "<group>"; };
+		FEAA9E115619E13E5A05F216D707E346 /* MBCircularProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBCircularProgressBar-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		149B1D7858486F0F9ACEF981A666F264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C534B317A2ABD3C836F1029F270F4C6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3720773679F26F94F00C8F4686425FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF59972CF9DE7354BF21402CC674065 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C2A80C50FDDC08F3329462794B762B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B152CC8B3E2DA652BD8D1455FB56643 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6699C2C4B7FACCCFBCCA4B7D673CBD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815579CAFAD4C5D4E60B886DF4B18166 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77ED805DEC8C33E5FBA1475BCF015206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF375785FE6CC5F096CD11837CBA385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC0767E1CA7CD917A3F8081C41C6EFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1734DD3079F6BFFA8328F87882F27267 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D388D7DC3EF16C24A1A96232CA02557 /* Pods-MoviesStore */,
+				7EC65DB6227196ED0DC083888CAB41E0 /* Pods-MoviesStore-MoviesStoreUITests */,
+				C1D5DD84594EA85968D421D7D63F912C /* Pods-MoviesStoreTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3EFFD32C1423A425489909C89FAD6408 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F72944201BE65CC89B5AB4482C9EC89A /* example.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4D006C9106B1C8F2369B8A305D5F7C09 /* GradientCircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				675AE77AED08815E54DCC9EA51CCA242 /* ArcView.swift */,
+				8E984BA04E4C4E291109460122D7854B /* Background.swift */,
+				C18265559E6E6D4ABB5D530D3BEC8BF6 /* BlueDarkStyle.swift */,
+				97DBEB880AE4F4C290430A11AC5C72AF /* BlueIndicatorStyle.swift */,
+				FDCC714C9BBF605952CF5A1A069A1695 /* CircularProgressView.swift */,
+				E53EE4F63FD35C8134B3EEA17CBCC66D /* ColorUtil.swift */,
+				DBB2527A5F7FE8A84D6966A760BF7C39 /* GradientArcView.swift */,
+				A09E0D6E8407D79CF9DD087C759AC91C /* GradientArcWithClearColorView.swift */,
+				ACB18FDD8A687FFF2BE2BC4F5A9A121A /* GradientCircularProgress.h */,
+				1D2AF4519BD1D3C192EF3FD0069B6BDD /* GradientCircularProgress.swift */,
+				C3BDBB1594F2B78161C4675F512CF3BA /* GreenLightStyle.swift */,
+				EDDDE249440925A88E784910A4D816F4 /* OrangeClearStyle.swift */,
+				57AC44828C7BCD517C5899215C5F1C97 /* ProgressAtRatioView.swift */,
+				AFCB35FC001771D0D5770B7DEF7382DC /* ProgressView.swift */,
+				7F8266D16B38994F5DF43238416FCC7E /* ProgressViewController.swift */,
+				1B181E2A4445FAA5DFDCA4C34E397BC2 /* Property.swift */,
+				462EDF373BC9533F7D5C88BF13F949ED /* Style.swift */,
+				7B584D984F49EBC5A9CAD79135073FC8 /* WindowBuilder.swift */,
+				7EE29DC78534C8FB115DF721385E669E /* Support Files */,
+			);
+			name = GradientCircularProgress;
+			path = GradientCircularProgress;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6CE954F005B0C2EF2B16FCA12C80184C /* MBCircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				44B008E9B9A510DBE815F39E9B66E2C4 /* MBCircularProgressBarLayer.h */,
+				EDE957E8DEB88136E765B649752DA565 /* MBCircularProgressBarLayer.m */,
+				AE8F750F1A07C0ADCAD99BBDA3E2A0AE /* MBCircularProgressBarView.h */,
+				3270CA68CDB974373E91EAC513D7905B /* MBCircularProgressBarView.m */,
+				3EFFD32C1423A425489909C89FAD6408 /* Resources */,
+				FF1C3E4E790A2CC40283FC9DEA089E8F /* Support Files */,
+			);
+			name = MBCircularProgressBar;
+			path = MBCircularProgressBar;
+			sourceTree = "<group>";
+		};
+		6D388D7DC3EF16C24A1A96232CA02557 /* Pods-MoviesStore */ = {
+			isa = PBXGroup;
+			children = (
+				CC4E341F864B9FB057DB7C3EDA356F1F /* Pods-MoviesStore.modulemap */,
+				B5C7375F8B1A661F744BB809A23AE58A /* Pods-MoviesStore-acknowledgements.markdown */,
+				DE739F495036BF2D231510442AD6CFE7 /* Pods-MoviesStore-acknowledgements.plist */,
+				0A1709819E8F1F397A7A46E540468DA1 /* Pods-MoviesStore-dummy.m */,
+				293B0AD984CE3DD741D4E272D85DCE35 /* Pods-MoviesStore-frameworks.sh */,
+				04169222CD13B179F1B25826E74B5E2E /* Pods-MoviesStore-Info.plist */,
+				5907AAE0BCAF35F93A9945F12DB51E42 /* Pods-MoviesStore-umbrella.h */,
+				82CB544B829F25892C49923CF1F6E74E /* Pods-MoviesStore.debug.xcconfig */,
+				8DFBD1AC07B0290AFE46D5BE98F4859A /* Pods-MoviesStore.release.xcconfig */,
+			);
+			name = "Pods-MoviesStore";
+			path = "Target Support Files/Pods-MoviesStore";
+			sourceTree = "<group>";
+		};
+		7EC65DB6227196ED0DC083888CAB41E0 /* Pods-MoviesStore-MoviesStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				488364BBDC47D5C5A68F2407911349CB /* Pods-MoviesStore-MoviesStoreUITests.modulemap */,
+				7B10C6CDCC17CE99C94E64CD807323B8 /* Pods-MoviesStore-MoviesStoreUITests-acknowledgements.markdown */,
+				B359449ACDB524ACB2361CB781A69A1D /* Pods-MoviesStore-MoviesStoreUITests-acknowledgements.plist */,
+				124284F92531610A05EDAF13B6091853 /* Pods-MoviesStore-MoviesStoreUITests-dummy.m */,
+				558DE2853C81909E12415A166F17C76E /* Pods-MoviesStore-MoviesStoreUITests-frameworks.sh */,
+				851F04E6687D031F736668D5C50225D8 /* Pods-MoviesStore-MoviesStoreUITests-Info.plist */,
+				9FCC4035967800469B1C5B6639B891E8 /* Pods-MoviesStore-MoviesStoreUITests-umbrella.h */,
+				FCC708E8A5642382357BA1708CA076F0 /* Pods-MoviesStore-MoviesStoreUITests.debug.xcconfig */,
+				DD4C29B9488A9388F7E690CF4C0156A0 /* Pods-MoviesStore-MoviesStoreUITests.release.xcconfig */,
+			);
+			name = "Pods-MoviesStore-MoviesStoreUITests";
+			path = "Target Support Files/Pods-MoviesStore-MoviesStoreUITests";
+			sourceTree = "<group>";
+		};
+		7EE29DC78534C8FB115DF721385E669E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				475764EBD12256DA063CF6EE6DDD820D /* GradientCircularProgress.modulemap */,
+				9D6657DFF8EB11E34FD8BB541B991011 /* GradientCircularProgress-dummy.m */,
+				BBA7F5AB205D48DF9886698AFCBEDC52 /* GradientCircularProgress-Info.plist */,
+				8C881A665FA80F54BD18FD0671771973 /* GradientCircularProgress-prefix.pch */,
+				494A4BB53D052BC5BA31408F79AE47B9 /* GradientCircularProgress-umbrella.h */,
+				F393D9CBE27096B9E35C1DF59F614F4F /* GradientCircularProgress.debug.xcconfig */,
+				B7C8D6F124E417AA507393C21C5C4FC8 /* GradientCircularProgress.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GradientCircularProgress";
+			sourceTree = "<group>";
+		};
+		C1D5DD84594EA85968D421D7D63F912C /* Pods-MoviesStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				6063F7F02E84F492F1FB81918032D03E /* Pods-MoviesStoreTests.modulemap */,
+				5C66F5D858D6D17B54E4E5728AC07FAB /* Pods-MoviesStoreTests-acknowledgements.markdown */,
+				1955CF160ADD266444582DA85BB3B8A5 /* Pods-MoviesStoreTests-acknowledgements.plist */,
+				80151C69CADA4C7DD9F9F979AB389AF8 /* Pods-MoviesStoreTests-dummy.m */,
+				8965C7EDF7503A74522EA9A5B90F6F56 /* Pods-MoviesStoreTests-Info.plist */,
+				B34FE463A44A36A11AEF94A528DA585D /* Pods-MoviesStoreTests-umbrella.h */,
+				A325E10A31BC73BABFD5CC51E28458E6 /* Pods-MoviesStoreTests.debug.xcconfig */,
+				4CDD96467E317DB9AACCEAB08A022F7A /* Pods-MoviesStoreTests.release.xcconfig */,
+			);
+			name = "Pods-MoviesStoreTests";
+			path = "Target Support Files/Pods-MoviesStoreTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EFD57AEA5998E769AB2159BCC4D3F077 /* Pods */,
+				FC00BEA7E52D9E3CF79EF2AF785D2087 /* Products */,
+				1734DD3079F6BFFA8328F87882F27267 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFD57AEA5998E769AB2159BCC4D3F077 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D006C9106B1C8F2369B8A305D5F7C09 /* GradientCircularProgress */,
+				6CE954F005B0C2EF2B16FCA12C80184C /* MBCircularProgressBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC00BEA7E52D9E3CF79EF2AF785D2087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				554719D1B6052A3158A667B410CE972F /* GradientCircularProgress */,
+				640B2CA36D53D84D0129B12A7FAC2E0B /* MBCircularProgressBar */,
+				7CB12AE789452060456EBCEC68360820 /* MBCircularProgressBar-MBCircularProgressBar */,
+				A604F0133CDC14EFD3D1177AE877C537 /* Pods-MoviesStore */,
+				96B04E98121962FCE266BC3E6DCDD6B7 /* Pods-MoviesStore-MoviesStoreUITests */,
+				7F336861FDD10AFF39456AFBEBFF20FF /* Pods-MoviesStoreTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1C3E4E790A2CC40283FC9DEA089E8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5286AF3E4774CC9645E411C149E3445F /* MBCircularProgressBar.modulemap */,
+				FEAA9E115619E13E5A05F216D707E346 /* MBCircularProgressBar-dummy.m */,
+				69034F3ADEE77A9B4DA0D62FBE30052B /* MBCircularProgressBar-Info.plist */,
+				513AC949DF8467E418E85BC5461F27DA /* MBCircularProgressBar-prefix.pch */,
+				2DA4D2BBE14D69193B4F12B13A915CD4 /* MBCircularProgressBar-umbrella.h */,
+				CA1C85DAAEBD625013EA11E89265BEB7 /* MBCircularProgressBar.debug.xcconfig */,
+				540015340BB90B3A631E7F0DAEFDECD0 /* MBCircularProgressBar.release.xcconfig */,
+				962B35AA4389B1AC8F67E54352C6BD89 /* ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBCircularProgressBar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A52237258B62294CD901209867B1579 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA8998A7431685397947D231B36A558 /* Pods-MoviesStore-MoviesStoreUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444A043617DA5DACB36FA98280B0A99E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A2A519EDFE8BF62530A46DEC8E8402 /* MBCircularProgressBar-umbrella.h in Headers */,
+				9A2923EE6EC1969B993224C9B29D2273 /* MBCircularProgressBarLayer.h in Headers */,
+				CCCC3058CA8FCD02B9D38E7F50F56D83 /* MBCircularProgressBarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CC770B89999D7935DB36DCD6EDE5DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9F43FD327D7279D482F8F3716CD2C0 /* Pods-MoviesStore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF746C7B2FEDAA51B90F5B15679EE34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9CD0EB474CB886F990C23E48F777A2 /* GradientCircularProgress.h in Headers */,
+				89C247F60E83565F7F5FA75DCC64E8A2 /* GradientCircularProgress-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4A4E85CC33D6E889329C98E725FCD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE23597310AFBA0C53AFDB0A15285F6B /* Pods-MoviesStoreTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0EA4F2496BC757A49DCFF527D24E0FEF /* Pods-MoviesStore-MoviesStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F447BD5F77E91E519824B2DBFEA307 /* Build configuration list for PBXNativeTarget "Pods-MoviesStore-MoviesStoreUITests" */;
+			buildPhases = (
+				0A52237258B62294CD901209867B1579 /* Headers */,
+				2BB4C8E8B90994C26D4C7C061817D62E /* Sources */,
+				6699C2C4B7FACCCFBCCA4B7D673CBD1E /* Frameworks */,
+				F632752654495BAED237402C5E13C10D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6E039270542C17E83473F8F5EA52D3 /* PBXTargetDependency */,
+				7D065EEC5F354FCEF5D40F28C6796DFF /* PBXTargetDependency */,
+			);
+			name = "Pods-MoviesStore-MoviesStoreUITests";
+			productName = Pods_MoviesStore_MoviesStoreUITests;
+			productReference = 96B04E98121962FCE266BC3E6DCDD6B7 /* Pods-MoviesStore-MoviesStoreUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E22002AAC42C1574F92E75D3B37DD24 /* GradientCircularProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC70AE6DF5586E895585806B5073E47 /* Build configuration list for PBXNativeTarget "GradientCircularProgress" */;
+			buildPhases = (
+				DAF746C7B2FEDAA51B90F5B15679EE34 /* Headers */,
+				AF44006EDDB624C4315E775CD4B3826F /* Sources */,
+				47C2A80C50FDDC08F3329462794B762B /* Frameworks */,
+				4FEAF6FBF74F5AA134A75834D06EE92F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientCircularProgress;
+			productName = GradientCircularProgress;
+			productReference = 554719D1B6052A3158A667B410CE972F /* GradientCircularProgress */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F7B8404005C65744456CE007F41B81C /* Pods-MoviesStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943E7B34A251F4821D42F746A460966D /* Build configuration list for PBXNativeTarget "Pods-MoviesStore" */;
+			buildPhases = (
+				D7CC770B89999D7935DB36DCD6EDE5DD /* Headers */,
+				3E641FDCCC00D58906D945A48D5CA010 /* Sources */,
+				149B1D7858486F0F9ACEF981A666F264 /* Frameworks */,
+				D4CE3CC3C93F06BCCDE3517803325A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1671DC3FBD1E8B6869790D61E1DBA640 /* PBXTargetDependency */,
+				C4B232FD38EB77C2B351ABDB2C8EE4A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-MoviesStore";
+			productName = Pods_MoviesStore;
+			productReference = A604F0133CDC14EFD3D1177AE877C537 /* Pods-MoviesStore */;
+			productType = "com.apple.product-type.framework";
+		};
+		46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD04FF097EB27A5CDEF787232EBEA72 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */;
+			buildPhases = (
+				444A043617DA5DACB36FA98280B0A99E /* Headers */,
+				DDC0FD3C31B394FF4EBD6499334D2BF7 /* Sources */,
+				3720773679F26F94F00C8F4686425FD7 /* Frameworks */,
+				25728E4AFAFE1E1E731EBE0C7F9EF2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70DC540249AF01D39B14E1C8DA320B92 /* PBXTargetDependency */,
+			);
+			name = MBCircularProgressBar;
+			productName = MBCircularProgressBar;
+			productReference = 640B2CA36D53D84D0129B12A7FAC2E0B /* MBCircularProgressBar */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BA5E348E64AFAB335EC680A67122E64 /* MBCircularProgressBar-MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 912182B0B524813BEFA170776235B0DF /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */;
+			buildPhases = (
+				04C3C99F3C931995DE47CBA0F4809A90 /* Sources */,
+				77ED805DEC8C33E5FBA1475BCF015206 /* Frameworks */,
+				237A15DD183F95BF44CB7E5E4B24E534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			productName = MBCircularProgressBar;
+			productReference = 7CB12AE789452060456EBCEC68360820 /* MBCircularProgressBar-MBCircularProgressBar */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B51E7203A8694CE51D148A442D825C86 /* Pods-MoviesStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9B67556F8B092828ABADB19DB3E996 /* Build configuration list for PBXNativeTarget "Pods-MoviesStoreTests" */;
+			buildPhases = (
+				FC4A4E85CC33D6E889329C98E725FCD3 /* Headers */,
+				07AE09C652009A2FDEA8841FA4F88BFA /* Sources */,
+				9BF375785FE6CC5F096CD11837CBA385 /* Frameworks */,
+				914343C7E01EA23E9BCEB6DE4D0F8C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B35ADC8BD7AF0088019F64647363E467 /* PBXTargetDependency */,
+			);
+			name = "Pods-MoviesStoreTests";
+			productName = Pods_MoviesStoreTests;
+			productReference = 7F336861FDD10AFF39456AFBEBFF20FF /* Pods-MoviesStoreTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FC00BEA7E52D9E3CF79EF2AF785D2087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E22002AAC42C1574F92E75D3B37DD24 /* GradientCircularProgress */,
+				46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */,
+				8BA5E348E64AFAB335EC680A67122E64 /* MBCircularProgressBar-MBCircularProgressBar */,
+				3F7B8404005C65744456CE007F41B81C /* Pods-MoviesStore */,
+				0EA4F2496BC757A49DCFF527D24E0FEF /* Pods-MoviesStore-MoviesStoreUITests */,
+				B51E7203A8694CE51D148A442D825C86 /* Pods-MoviesStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		237A15DD183F95BF44CB7E5E4B24E534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511E2541F8F4F7B54139E7FF76B0F01A /* example.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25728E4AFAFE1E1E731EBE0C7F9EF2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C698DA0C0DE5096EACCDE63A174D0 /* MBCircularProgressBar-MBCircularProgressBar in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEAF6FBF74F5AA134A75834D06EE92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914343C7E01EA23E9BCEB6DE4D0F8C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CE3CC3C93F06BCCDE3517803325A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F632752654495BAED237402C5E13C10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C3C99F3C931995DE47CBA0F4809A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AE09C652009A2FDEA8841FA4F88BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0432776FC2192436F5B791311D906C /* Pods-MoviesStoreTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB4C8E8B90994C26D4C7C061817D62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964C9F89BD4B19A7224406B525FD4C29 /* Pods-MoviesStore-MoviesStoreUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E641FDCCC00D58906D945A48D5CA010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88515EF112FE9EA0F7A997BACDEA9D4 /* Pods-MoviesStore-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF44006EDDB624C4315E775CD4B3826F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A304363A0C51A867D7CCDA8755D26C8 /* ArcView.swift in Sources */,
+				F79146C9737A392D44FCC7C12FDD0AF1 /* Background.swift in Sources */,
+				D225FA9B7ED55298826CCEBF6FCF39D3 /* BlueDarkStyle.swift in Sources */,
+				BDDEBA8CD3EAE7906E1CC3F7B8863F72 /* BlueIndicatorStyle.swift in Sources */,
+				3B46913E94D7EB076632F3D77CD208DC /* CircularProgressView.swift in Sources */,
+				1E3CCD8ED7AA1DD230A512B69366BDD9 /* ColorUtil.swift in Sources */,
+				3EA3F4E87D1AED0CDEDE8F5B70E254A6 /* GradientArcView.swift in Sources */,
+				1EF459A4657DF666DEB46B773A56129C /* GradientArcWithClearColorView.swift in Sources */,
+				71F7A055D4E0E948DCFFCBAA639B0BC0 /* GradientCircularProgress.swift in Sources */,
+				2E3D67EF4390C90419AF9F14190532B0 /* GradientCircularProgress-dummy.m in Sources */,
+				BBC9B7F139164A6A32851DF5EB164C69 /* GreenLightStyle.swift in Sources */,
+				89A17E274E9DBAEB446BDF83F75ADF80 /* OrangeClearStyle.swift in Sources */,
+				CCB2748298A52B149A1F06F4200C4EB8 /* ProgressAtRatioView.swift in Sources */,
+				313734138B38FE724E916F77536988B2 /* ProgressView.swift in Sources */,
+				01BA716616A999B1E52DFB6D575C8C73 /* ProgressViewController.swift in Sources */,
+				5D3C6F08D62AD9AAF171BBFED8CCB786 /* Property.swift in Sources */,
+				741583F8FE2F5ACB0E2A8723BB57FEFC /* Style.swift in Sources */,
+				1D2235175D2A975A3C77EEB7D53E7B22 /* WindowBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC0FD3C31B394FF4EBD6499334D2BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2018B8EEBB508956A8FD7C74A42FD143 /* MBCircularProgressBar-dummy.m in Sources */,
+				0EAF3D3A4225750A85D9907D125497E9 /* MBCircularProgressBarLayer.m in Sources */,
+				B4BB9632B410AE70CCEC18CA02F4C48E /* MBCircularProgressBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1671DC3FBD1E8B6869790D61E1DBA640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GradientCircularProgress;
+			target = 1E22002AAC42C1574F92E75D3B37DD24 /* GradientCircularProgress */;
+			targetProxy = B4712D243C43EE620B67E0ACBE703C9F /* PBXContainerItemProxy */;
+		};
+		70DC540249AF01D39B14E1C8DA320B92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			target = 8BA5E348E64AFAB335EC680A67122E64 /* MBCircularProgressBar-MBCircularProgressBar */;
+			targetProxy = 4BCEDA4F4D32218E0C82D3C9E0A74CEC /* PBXContainerItemProxy */;
+		};
+		7D065EEC5F354FCEF5D40F28C6796DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBCircularProgressBar;
+			target = 46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */;
+			targetProxy = A91A437C9C1FC2D4861CAD42AA333596 /* PBXContainerItemProxy */;
+		};
+		B35ADC8BD7AF0088019F64647363E467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MoviesStore";
+			target = 3F7B8404005C65744456CE007F41B81C /* Pods-MoviesStore */;
+			targetProxy = A89A3823E95F9799546475491075FA60 /* PBXContainerItemProxy */;
+		};
+		C4B232FD38EB77C2B351ABDB2C8EE4A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBCircularProgressBar;
+			target = 46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */;
+			targetProxy = 89A72FB077707F08534C00DC7BB4F2BE /* PBXContainerItemProxy */;
+		};
+		FA6E039270542C17E83473F8F5EA52D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GradientCircularProgress;
+			target = 1E22002AAC42C1574F92E75D3B37DD24 /* GradientCircularProgress */;
+			targetProxy = 3A2BAFC4D3B328F5746CD43CCED85C85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00B2315BE612316635932618FF6A64FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540015340BB90B3A631E7F0DAEFDECD0 /* MBCircularProgressBar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = MBCircularProgressBar;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F686D321CC940AD2FE01F2CA4AC8A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1C85DAAEBD625013EA11E89265BEB7 /* MBCircularProgressBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = MBCircularProgressBar;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E967332DC3C84440B8326D9E166595F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1C85DAAEBD625013EA11E89265BEB7 /* MBCircularProgressBar.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				IBSC_MODULE = MBCircularProgressBar;
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3349AE072583B85396E73C69FB120B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A325E10A31BC73BABFD5CC51E28458E6 /* Pods-MoviesStoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoviesStoreTests/Pods-MoviesStoreTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoviesStoreTests/Pods-MoviesStoreTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41DC7D59C193023D037DA41089EDB2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F393D9CBE27096B9E35C1DF59F614F4F /* GradientCircularProgress.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GradientCircularProgress/GradientCircularProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GradientCircularProgress/GradientCircularProgress-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GradientCircularProgress/GradientCircularProgress.modulemap";
+				PRODUCT_MODULE_NAME = GradientCircularProgress;
+				PRODUCT_NAME = GradientCircularProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		465B96ACFF57A6F689A76D1F0E4C639A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540015340BB90B3A631E7F0DAEFDECD0 /* MBCircularProgressBar.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				IBSC_MODULE = MBCircularProgressBar;
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		73A00FB6BE14B2C0AA8276CA4D87F7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82CB544B829F25892C49923CF1F6E74E /* Pods-MoviesStore.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoviesStore/Pods-MoviesStore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoviesStore/Pods-MoviesStore.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73BDCA988A47CE0C434A4CB68707BA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4C29B9488A9388F7E690CF4C0156A0 /* Pods-MoviesStore-MoviesStoreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoviesStore-MoviesStoreUITests/Pods-MoviesStore-MoviesStoreUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoviesStore-MoviesStoreUITests/Pods-MoviesStore-MoviesStoreUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		741515D07BB9B7051566C661405191EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC708E8A5642382357BA1708CA076F0 /* Pods-MoviesStore-MoviesStoreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoviesStore-MoviesStoreUITests/Pods-MoviesStore-MoviesStoreUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoviesStore-MoviesStoreUITests/Pods-MoviesStore-MoviesStoreUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0E89187654E84F651A7F1E63EDB0857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C8D6F124E417AA507393C21C5C4FC8 /* GradientCircularProgress.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GradientCircularProgress/GradientCircularProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GradientCircularProgress/GradientCircularProgress-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GradientCircularProgress/GradientCircularProgress.modulemap";
+				PRODUCT_MODULE_NAME = GradientCircularProgress;
+				PRODUCT_NAME = GradientCircularProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E62190FC1840D6F45FBFFAC56165AE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDD96467E317DB9AACCEAB08A022F7A /* Pods-MoviesStoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoviesStoreTests/Pods-MoviesStoreTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoviesStoreTests/Pods-MoviesStoreTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAA860E00C6B3A4C0882447188D08347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DFBD1AC07B0290AFE46D5BE98F4859A /* Pods-MoviesStore.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoviesStore/Pods-MoviesStore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoviesStore/Pods-MoviesStore.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30F447BD5F77E91E519824B2DBFEA307 /* Build configuration list for PBXNativeTarget "Pods-MoviesStore-MoviesStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741515D07BB9B7051566C661405191EB /* Debug */,
+				73BDCA988A47CE0C434A4CB68707BA02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD04FF097EB27A5CDEF787232EBEA72 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F686D321CC940AD2FE01F2CA4AC8A78 /* Debug */,
+				00B2315BE612316635932618FF6A64FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9B67556F8B092828ABADB19DB3E996 /* Build configuration list for PBXNativeTarget "Pods-MoviesStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3349AE072583B85396E73C69FB120B31 /* Debug */,
+				E62190FC1840D6F45FBFFAC56165AE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		912182B0B524813BEFA170776235B0DF /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E967332DC3C84440B8326D9E166595F /* Debug */,
+				465B96ACFF57A6F689A76D1F0E4C639A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943E7B34A251F4821D42F746A460966D /* Build configuration list for PBXNativeTarget "Pods-MoviesStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A00FB6BE14B2C0AA8276CA4D87F7C0 /* Debug */,
+				FAA860E00C6B3A4C0882447188D08347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC70AE6DF5586E895585806B5073E47 /* Build configuration list for PBXNativeTarget "GradientCircularProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41DC7D59C193023D037DA41089EDB2C6 /* Debug */,
+				A0E89187654E84F651A7F1E63EDB0857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

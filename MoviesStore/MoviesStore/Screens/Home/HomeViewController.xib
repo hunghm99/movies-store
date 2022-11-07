@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="MoviesStore" customModuleProvider="target">
+            <connections>
+                <outlet property="listView" destination="iJW-IU-3FV" id="RzU-eB-QGO"/>
+                <outlet property="scrollView" destination="Uof-11-Eet" id="eME-A1-NU4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uof-11-Eet">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hLX-Ls-K8P" userLabel="Content View">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iJW-IU-3FV">
+                                    <rect key="frame" x="0.0" y="60" width="414" height="450"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="450" id="Izn-IK-kSK"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7h-lA-doM">
+                                    <rect key="frame" x="158" y="668" width="67" height="89"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                    <connections>
+                                        <action selector="showAll:" destination="-1" eventType="touchUpInside" id="teI-Sf-m0b"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.035294117649999998" green="0.1450980392" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1200" id="4gQ-xU-zOg"/>
+                                <constraint firstItem="iJW-IU-3FV" firstAttribute="top" secondItem="hLX-Ls-K8P" secondAttribute="top" constant="60" id="KX7-ap-Uyf"/>
+                                <constraint firstItem="iJW-IU-3FV" firstAttribute="leading" secondItem="hLX-Ls-K8P" secondAttribute="leading" id="OjL-VA-uOZ"/>
+                                <constraint firstAttribute="trailing" secondItem="iJW-IU-3FV" secondAttribute="trailing" id="dcq-T2-tgK"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="hLX-Ls-K8P" firstAttribute="top" secondItem="Uof-11-Eet" secondAttribute="top" id="AKe-Sc-LkV"/>
+                        <constraint firstAttribute="trailing" secondItem="hLX-Ls-K8P" secondAttribute="trailing" id="Jyx-Tm-p50"/>
+                        <constraint firstAttribute="bottom" secondItem="hLX-Ls-K8P" secondAttribute="bottom" id="KwG-ek-flD"/>
+                        <constraint firstItem="hLX-Ls-K8P" firstAttribute="leading" secondItem="Uof-11-Eet" secondAttribute="leading" id="L3Q-FR-Qqd"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hLX-Ls-K8P" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="4U3-je-Bax"/>
+                <constraint firstItem="Uof-11-Eet" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5jF-Px-oiE"/>
+                <constraint firstAttribute="bottom" secondItem="Uof-11-Eet" secondAttribute="bottom" id="SKV-rx-zOi"/>
+                <constraint firstAttribute="trailing" secondItem="Uof-11-Eet" secondAttribute="trailing" id="XFU-Vw-UNX"/>
+                <constraint firstItem="Uof-11-Eet" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="bXX-yw-0Zw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-962.31884057971024" y="-145.3125"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
